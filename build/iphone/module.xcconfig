@@ -1,0 +1,7 @@
+// this is a generated file - DO NOT EDIT
+
+TI_MAP_OTHER_LDFLAGS=$(inherited) -weak_framework MapKit
+FACEBOOK_FRAMEWORK_SEARCH_PATHS=$(SRCROOT)/../../modules/iphone/facebook/4.0.5/platform "~/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5/platform"
+FACEBOOK_OTHER_LDFLAGS=$(inherited) -framework Social -framework FacebookSDK
+OTHER_LDFLAGS=$(inherited) $(TI_MAP_OTHER_LDFLAGS) $(FACEBOOK_OTHER_LDFLAGS) 
+FRAMEWORK_SEARCH_PATHS=$(inherited) $(FACEBOOK_FRAMEWORK_SEARCH_PATHS) 
